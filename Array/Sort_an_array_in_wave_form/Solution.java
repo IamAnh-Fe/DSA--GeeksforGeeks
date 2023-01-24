@@ -20,7 +20,7 @@ public class Solution {
       arr[b] = temp;
   }
   public static void main(String[] args) {
-    int[] arr = {10, 5, 6, 3, 2, 20, 100, 80};
+    int[] arr = {10, 90, 49, 2, 1, 5, 23};
     BruteForce(arr);
     System.out.println(Arrays.toString(arr));
   }
