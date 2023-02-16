@@ -15,6 +15,8 @@ public class Solution {
       if(isOperator(c)){
         String op1 = stack.pop();
         String op2 = stack.pop();
+        System.out.println("op1" + op1);
+        System.out.println("op2" + op2);
 
         String temp = "(" + op1 + c + op2 + ")";
         stack.push(temp);
